@@ -167,3 +167,52 @@ footer {
     margin: 40px 0 20px;
 }
 
+/* @800px media query*/
+@media( max-width: 800px ){
+   .container{
+       width: 100%
+    }
+
+   header {
+    flex-direction: column;
+    align-items: center;
+   }
+
+    header nav {
+       order: 1;
+       justify-content: space-between;
+       margin-top: 40px;
+       width: 100%;
+   }
+
+   .getStarted {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+   }
+
+   .getStarted img {
+       display: none;
+   }
+
+   .getStarted intro h1 {
+       width: 50%;
+   }
+
+   .getStarted button {
+       width: 50%;
+   }
+
+   .mainContent {
+        width: 100%;
+   }
+
+   .mainContent .middle-img {
+       width: 100%;
+   }
+
+   
+
+
+}
