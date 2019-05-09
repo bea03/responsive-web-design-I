@@ -212,7 +212,86 @@ footer {
        width: 100%;
    }
 
-   
+   /* @500px media query*/
+@media( max-width: 800px ){
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
 
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav a {
+        padding: 20px;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+    header nav a:first-child {
+        width: 100%;
+        border-top: 1px solid black;
+    }
+
+    .getStarted {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    .getStarted img {
+        display: none;
+    }
+
+    .getStarted intro h1 {
+        width: 50%;
+     }
+ 
+    .getStarted button {
+        width: 50%;
+    }
+    
+    .mainContent {
+        
+        width: 100%;
+       }
+
+    .mainContent .topContent .textContent {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .mainContent .middle-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mainContent .topContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mainContent .bottomContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    mainContent .topContent .bottomContent {
+        width: 100%;
+        padding: 20px 0px;
+    }
 
 }
